@@ -44,5 +44,6 @@
     ```
     '||(select group_concat(secret) from user)||'
     ```
+    So, why use group_concat() ? We select the name and get whole data but we can just print one line, so we need group_concat() to help us.
     Finally, you can get the flag.
 6. Here is the flag : picoCTF{wh00t_it_a_sql_injectd75ebff4}
